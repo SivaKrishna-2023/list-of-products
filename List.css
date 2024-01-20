@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.tab-button {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tab:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.badge {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.add-cart-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.line-throught {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.price-line {
+    display: inline-block;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+.vendor-content {
+    font-size: 15px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.price-line-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.discount-price {
+    color: red;
+    padding-left: 10px;
+}
+
+.title-content {
+    display: flex;
+    justify-content: space-between;
+}
